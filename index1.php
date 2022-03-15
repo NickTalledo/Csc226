@@ -5,20 +5,22 @@
 <?php
 echo "Welcome";
 // Declare variable
-$name = "Nick Talledo"
+$name = "Nick Talledo";
 $credits = 15;
 $float = 10.0;
 // Print out variables
 var_dump($name);
 echo "<br>";
+var_dump($credits);
+echo "<br>";
 var_dump($float);
 echo "<br>";
 // If statement should print out Full Time student
 if ($credits >= 12) {
-    echo "Full Time Student"
+    echo "Full Time Student";
 }
 else {
-    echo "Part Time Student"
+    echo "Part Time Student";
 }
 
 
